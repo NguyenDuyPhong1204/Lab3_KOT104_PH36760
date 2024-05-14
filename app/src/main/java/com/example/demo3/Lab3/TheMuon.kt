@@ -1,6 +1,6 @@
 package com.example.demo3.Lab3
 
-class TheMuon : SinhVien(){
+class TheMuon : SinhVien() {
     //    Mã phiếu mượn, ngày mượn,
 //    hạn trả, số hiệu sách, và các thông tin cá nhân của sinh viên mượn sách
 
@@ -21,7 +21,8 @@ class TheMuon : SinhVien(){
 
     override fun getThongTin(): String {
         var thongTin: String
-        thongTin = super.getThongTin() +", mã phiếu mượn: $maPhieuMuong, ngày mượn: $ngayMuon, hạn trả: $hanTra, số hiệu sách: $soHieuSach"
+        thongTin =
+            super.getThongTin() + ", mã phiếu mượn: $maPhieuMuong, ngày mượn: $ngayMuon, hạn trả: $hanTra, số hiệu sách: $soHieuSach"
         return thongTin
     }
 }

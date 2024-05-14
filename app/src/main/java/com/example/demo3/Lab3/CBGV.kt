@@ -4,11 +4,7 @@ class CBGV : Nguoi() {
 //    lương cứng, lương thưởng,
 //    tiền phạt, lương thực lĩnh,
 //    và các thông tin cá nhân: Họ tên, tuổi, quê quán, mã số giáo viên.
-//    var hoTen: String? = null
-//    var tuoi: Int? = null
-//    var queQuan: String? = null
-//    var maSoGV: String? = null
-//    var nguoi = Nguoi()
+
     var luongCung: Double? = null
     var luongThuong:Double? = null
     var tienPhat: Double? = null

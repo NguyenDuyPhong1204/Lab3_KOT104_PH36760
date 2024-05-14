@@ -167,7 +167,7 @@ fun xoaTheMuon(){
 
     var maThe: String = ""
     var s: String?
-    print("Nhập mã thẻ mượn muốn xoá")
+    print("Nhập mã thẻ mượn muốn xoá: ")
     s = readlnOrNull()
     if (s != null) {
         maThe = s.toString()
